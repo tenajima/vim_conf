@@ -85,7 +85,14 @@ set wrapscan
 set hlsearch
 "ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+set backspace=indent,eol,start
 "===============================================================================================
 "マイコマンド
-inoremap <C-j> <Esc>o
-inoremap <C-l> <Esc>A
+inoremap <C-n> <Esc>o
+inoremap <C-a> <Esc>A
+imap <C-l> <Right>
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap <C-h> <Left>
+inoremap jj <Esc>
+noremap <C-r> :QuickRun<CR>
