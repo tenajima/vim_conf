@@ -28,6 +28,10 @@ endif
 "================================================================================================
 "https://qiita.com/mfujimori/items/9fd41bcd8d1ce9170301 を参考にしてあります.
 " setting
+" クリップボード有効化
+set clipboard+=unnamed
+"カーソルの番号表示
+set number ruler
 "文字コードをutf-8に設定
 set fenc=utf-8
 "バックアップファイルを作らない
@@ -68,9 +72,9 @@ set list listchars=tab:\▸\-
 "Tab文字を半角スペースにする
 set expandtab
 "行頭以外のTab文字の表示幅(スペースいくつ分)
-set tabstop=2
+set tabstop=4
 "行頭でのTab文字の表示幅
-set shiftwidth=2
+set shiftwidth=4
 
 "検索系
 "検索文字列が小文字の場合は大文字小文字を区別なく検索する
